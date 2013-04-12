@@ -11,6 +11,9 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
+  <!-- Google font emulation de Century Gothic -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
   <link href="css/style.css" rel="stylesheet">
 
 
@@ -33,76 +36,60 @@
 
 <body>
 
+
+
   <div class="container">
 
     <div class="row">
-      <h1>TANGORRI</h1> 
-      <p>
-        <em>est</em> <strong>Antoine Malpel</strong>,
-        Créateur d'Applications & Sites WEB.
-      </p>
-    </div>
-
-    <div id="rapidinfos" class="row">
-      <div class="span2">
-        <p class="text-info">Site en cours de réalisation.</p>
-      </div>
-      <div class="span2">
-        <p class="text-warning">Charte Graphique à venir.</p>
+      <div class="span12">
+        <h1><img src="img/logo_titre.png" alt="TANGORRI LOGO TITRE"</h1> 
+        <h2>
+          Création de Site Internet et d'Applications Entertainment.
+        </h2>
       </div>
     </div>
 
     <div class="row">
-     <div clas="span4">
-      <h3>Réseaux Sociaux</h3>
-      <p>Mon parcours professionel détaillé est visible sur ma page linked-in. Cliquez sur le boutton image ci-après pour le consulter.</p>
-      <a href="http://fr.linkedin.com/in/tangorri">
-        <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" 
-        width="160" height="33" border="0" alt="View Antoine Malpel's profile on LinkedIn">
-      </a>
-      </div
-      
-      <h4><img src="img/twitter-bird-light-bgs-48x.png">Compte Twitter</h4>  
-      <div id="tweeterDiv">
-        <ol id="last_tweets"></ol>
-        <script>
-        !function(d,s,id){
-          var js,fjs=d.getElementsByTagName(s)[0];
-          if(!d.getElementById(id)){
-            js=d.createElement(s);
-            js.id=id;js.src="//platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js,fjs);
-          }
-        }(document,"script","twitter-wjs");
-        </script>
+      <div class="span12" style="text-align: center;">
+        <ul class="social_links">
+          <li>      
+            <a href="https://twitter.com/tangorritweet" class="twitter-follow-button" data-show-count="false" data-lang="fr" data-size="large" data-dnt="true">Suivre @tangorritweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </li>
+          <li> 
+            <a href="http://fr.linkedin.com/in/tangorri">
+              <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Antoine Malpel's profile on LinkedIn">
+            </a>
+          </li>
+          <li>
+            <iframe src="http://ghbtns.com/github-btn.html?user=tangorri&type=follow&size=large"
+            allowtransparency="true" frameborder="0" scrolling="0" width="180" height="30"></iframe>
+          </li>
+        </ul>
       </div>
-      <a href="https://twitter.com/Tangorri_" class="twitter-follow-button" 
-      data-show-count="false" data-lang="fr" data-size="large">
-      Me suivre sur Twitter Suivre (@Tangorri_)
-    </a>
+
+    </div>
+
+    <div class="row">
+      <div></div>
+      <div class="span6 offset6">
+        <h2>Contact</h2>
+        <address>
+          <strong>Antoine Malpel</strong><br>
+          428 chemin de chantaco<br>
+          64500 Saint Jean de Luz<br>
+          <strong>Adresse Courriel</strong><br>
+          <a href="mailto:contact@tangorri.net">contact@tangorri.net</a><br>
+          <strong>Téléphone : </strong> 05 59 41 00 17
+        </address>
+        <p>SIRET&nbsp;:&nbsp;524&nbsp;433&nbsp;182</p> 
+      </div>
+
+
+    </div>
   </div>
-
-  <h2>Contact</h2>
-  <address>
-    <strong>Antoine Malpel</strong><br>
-    428 chemin de chantaco<br>
-    64500 Saint Jean de Luz<br>
-    <strong>Adresse Courriel</strong><br>
-    <a href="mailto:contact@tangorri.net">contact@tangorri.net</a>
-  </address>
-  <p>SIRET&nbsp;:&nbsp;524&nbsp;433&nbsp;182</p> 
-</div>
-
   <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
-<script>
-var lastTweetsURI = "http://api.twitter.com/1/statuses/user_timeline/tangorri_.json?count=3&include_rts=1&callback=?";
-$.getJSON(lastTweetsURI, function(data){
-  var divTarget = $("#last_tweets");
-  for (var i = 0; i< data.length; i++) divTarget.append('<li>' + data[i].text + '</li>');
-});
-</script>
 
 </body>
 </html>
