@@ -6,6 +6,7 @@ body {
  	background-image: url('../img/fond_montagnes_pano_large.gif');
  	background-repeat: no-repeat;
 	background-position: top center;
+	
 }
 
 .container {
@@ -21,4 +22,9 @@ body {
 	padding: 10px;
 	float: left;
 	list-style-type: none;
+}
+
+.info_frame {
+	//border-style: solid;
+	//border-radius: 8px;
 }
