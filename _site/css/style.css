@@ -1,0 +1,30 @@
+body {
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-color: #FF6633;	
+ 	background-image: url('../img/fond_montagnes_pano_large.gif');
+ 	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+
+.container {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 250px;
+}
+
+.social_links {
+	display: block;
+	text-align: center;
+}
+.social_links li {
+	padding: 10px;
+	float: left;
+	list-style-type: none;
+}
+
+.info_frame {
+	//border-style: solid;
+	//border-radius: 8px;
+}
