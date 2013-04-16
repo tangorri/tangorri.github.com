@@ -1,4 +1,5 @@
 Tangorri-web
 ============
 
-My Professional Website
+Mon Site Professionel
+"Tangorri":http://tangorri.net
