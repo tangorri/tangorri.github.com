@@ -3,15 +3,15 @@ body {
 	height: 100%;
 	color: white;
 	background-color: #FF6633;	
- 	background-image: url('../img/fond_montagnes_pano_large.gif');
- 	background-repeat: no-repeat;
-	background-position: top center;
+ 	// background-image: url('../img/fond_montagnes_pano_large.gif');
+ 	// background-repeat: no-repeat;
+	// background-position: top center;
 	
 }
 
 .container {
 	font-family: 'Raleway', sans-serif;
-	margin-top: 250px;
+	margin-top: 150px;
 }
 
 .social_links {
@@ -24,7 +24,17 @@ body {
 	list-style-type: none;
 }
 
-.info_frame {
-	//border-style: solid;
-	//border-radius: 8px;
+.parallax-viewport {
+	position: relative;
+	overflow: hidden;
+	width:  
+	width: 900px;
+	height: 150px;
+}
+
+.parallax-layer {
+	position: absolute;
+	width: 2778px;
+	height: 150px;
+	bottom: 0;
 }
