@@ -11,7 +11,7 @@ body {
 
 .container {
 	font-family: 'Raleway', sans-serif;
-	margin-top: 150px;
+	//margin-top: 150px;
 }
 
 .social_links {
@@ -26,9 +26,8 @@ body {
 
 .parallax-viewport {
 	position: relative;
-	overflow: hidden;
-	width:  
-	width: 900px;
+	overflow: hidden; 
+	width: 100%;
 	height: 150px;
 }
 
@@ -36,5 +35,4 @@ body {
 	position: absolute;
 	width: 2778px;
 	height: 150px;
-	bottom: 0;
 }

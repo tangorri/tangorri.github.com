@@ -134,9 +134,14 @@
     jQuery(document).ready(function(){
       // parallax
       jQuery( '#parallax .parallax-layer' ).parallax({
-        mouseport: jQuery("#parallax"),
-        xorigin: 0,
-        yorigin: 0
+        mouseport: jQuery("body"),
+        yparallax: false
+      },{
+        xparallax: '10%',
+      },{
+        xparallax: '30%'
+      },{
+        xparallax: '100%'
       });
     });
 
