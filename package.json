@@ -1,0 +1,26 @@
+{
+  "name": "tangorri.github.com",
+  "version": "1.0.0",
+  "description": "Tangorri-web\r ============",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^3.4.0",
+    "http-server": "^0.10.0",
+    "livereload": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "concurrently \"http-server src\" \"livereload src\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangorri/tangorri.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangorri/tangorri.github.com/issues"
+  },
+  "homepage": "https://github.com/tangorri/tangorri.github.com#readme"
+}
